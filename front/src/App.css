@@ -1,0 +1,144 @@
+body{
+  margin: 0;
+  box-sizing: border-box;
+}
+.Divs{
+padding-left: 40px;
+
+}
+.PPP{
+  font-family: 'gill', sans-serif;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  color: #a5a5a5;
+  padding-left: 6px;
+  padding-top: 30px;
+  display: block;
+  content: "";
+  position: relative;
+  top: 0;
+  left: 5px;
+}
+.PPP::after{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 5px;
+  display: block;
+  width: 68px;
+  height: 3px;
+  background: #ffa800;
+
+  }
+  .PPPp{
+    font-family: 'gill', sans-serif;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    color: #a5a5a5;
+    padding-left: 6px;
+    padding-top: 30px;
+    display: block;
+    content: "";
+    position: relative;
+    top: 0;
+    left: 5px;
+  }
+  .PPPp::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    display: block;
+    width: 68px;
+    height: 3px;
+    background: #ffa800;
+  
+    }
+.hhh{
+  font-family: 'gill', sans-serif;
+  color: #212121;
+  margin-top: -1px;
+  font-size:40px
+}
+.ppp{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  line-height: 1.92;
+  font-weight: 400;
+  color: #838383;
+  text-shadow: rgba(0,0,0,.01) 0 0 1px;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+}
+.Button{
+  width: 135px;
+  height: 45px;
+  border: none;
+  background-color: rgb(255,168,0);
+  color: #212121;
+  z-index: 4444;
+  position: relative;
+}
+.Button::after{
+  content: "";
+  width: 0px;
+  height: 100%;
+  background-color: white;
+  color: black;
+  z-index: -444;
+  position: absolute;
+  transition: .4s linear;
+  top: 0;
+  left: 0;
+  bottom: 0;
+}
+.Button:hover::after{
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  z-index: -444;
+  color: black;
+}
+a{
+  text-decoration: none;
+  margin-left: 5px;
+  font-family: 'gill', sans-serif;
+    font-size: 13px;
+    color: #697686;
+}
+a:hover{
+  color: red;
+}
+
+.HEADERRR{
+  width: 100%;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(17,16,14);
+}
+.icHEADERRR{
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Soll{
+
+}
+.Sagg{
+  width: 40%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.p{
+  color: white;
+
+}

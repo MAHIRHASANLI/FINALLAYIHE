@@ -1,0 +1,15 @@
+.Footer{
+    width: 100%;
+    height: 250px;
+    background-color: rgb(13,16,22);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icFuter{
+    width: 70%;
+    color: white;
+    font-family: 'gill', sans-serif;
+    font-size: 13px;
+    color: #697686;
+}
